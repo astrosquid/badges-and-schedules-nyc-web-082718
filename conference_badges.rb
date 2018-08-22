@@ -29,5 +29,3 @@ def printer(attendees)
     puts element
   end
 end
-
-printer
