@@ -16,10 +16,10 @@ def assign_rooms(speakers)
   assignments
 end
 
-def printer
-  speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-  batched_badges = batch_badge_creator speakers
-  assignments = assign_rooms speakers
+def printer(attendees)
+  # speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+  batched_badges = batch_badge_creator attendees
+  assignments = assign_rooms attendees
 
   batched_badges.each do |element|
     puts element
