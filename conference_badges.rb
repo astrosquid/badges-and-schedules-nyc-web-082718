@@ -16,7 +16,7 @@ def assign_rooms(speakers)
   assignments
 end
 
-def printer
+def printer(attendees)
   attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
   batched_badges = batch_badge_creator attendees
   assignments = assign_rooms attendees
